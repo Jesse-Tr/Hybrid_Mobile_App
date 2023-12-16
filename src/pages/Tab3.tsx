@@ -36,11 +36,9 @@ const Tab1: React.FC = () => {
           {dataset.map((item, index) => (
             <IonItem lines="inset" key={index}>
               <IonLabel>
-                <img src={item.guid} height="125px" width="100px" />
-               
+                <img src={item.guid} height="125px" width="100px" /> 
                 <h2>Artist: {item.artist}</h2>
-               <h2>Title: {item.album}</h2>
-                
+               <h2>Title: {item.album}</h2>   
                 <h2>Genre: {item.genre}</h2>
                 <h2>Rating: {item.rating}</h2>
                 
